@@ -502,59 +502,5 @@
       { "name": "4 star", "count": 30000 },
       { "name": "5 star", "count": 45000 }
     ]
-  },
-  {
-    "id": 129,
-    "title": "3D Modeling Toolkit",
-    "companyName": "Spatial Design Labs",
-    "image": "https://placehold.co/100x100/F05F7D/FFFFFF/svg?text=3D",
-    "description": "3D Modeling Toolkit is a streamlined, mobile-first application that empowers users to create, manipulate, and texture complex 3D meshes using intuitive touch controls, perfect for artists, architects, and game designers on the move. The app supports polygonal modeling, sculpting tools, and non-uniform scaling, with a real-time ray-tracing preview engine to visualize materials and lighting accurately. Key features include full support for importing and exporting industry-standard formats (OBJ, FBX, STL), a PBR (Physically Based Rendering) material library, and an advanced UV unwrapping utility. The collaborative mode allows multiple users to work on the same model simultaneously with cloud synchronization. This powerful toolkit removes the barrier of entry to 3D design, providing professional features typically found only in high-end desktop software, ensuring complex creation can happen anywhere, and transforming abstract concepts into tangible digital models efficiently.",
-    "size": 350.5,
-    "reviews": 25000,
-    "downloads": 750000,
-    "ratingAvg": 4.6,
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 2000 },
-      { "name": "4 star", "count": 10000 },
-      { "name": "5 star", "count": 12200 }
-    ]
-  },
-  {
-    "id": 130,
-    "title": "Digital Sheet Music Viewer",
-    "companyName": "Melody Software",
-    "image": "https://placehold.co/100x100/3B82F6/FFFFFF/svg?text=Music",
-    "description": "Digital Sheet Music Viewer is an essential tool for musicians, allowing effortless viewing, annotation, and organization of your entire sheet music collection, eliminating the need for bulky physical binders. The app supports PDF and MusicXML formats with specialized rendering for crystal-clear legibility. Key features include hands-free page turning via Bluetooth foot pedal support, a built-in metronome with visual beat tracking, and a recording function to document practice sessions. Advanced annotation tools allow for custom fingerings, dynamics markings, and text notes that overlay non-destructively onto the score. You can create custom setlists for performances, instantly transpose scores to different keys, and share annotated versions with band members or students via cloud services. Designed for both classical and contemporary musicians, this app modernizes the performance and practice experience by integrating digital convenience with traditional musical rigor.",
-    "size": 72.8,
-    "reviews": 19000,
-    "downloads": 900000,
-    "ratingAvg": 4.8,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 500 },
-      { "name": "4 star", "count": 5200 },
-      { "name": "5 star", "count": 13000 }
-    ]
-  },
-  {
-    "id": 131,
-    "title": "Time Zone Converter Pro",
-    "companyName": "Global Connect Tools",
-    "image": "https://placehold.co/100x100/06B6D4/FFFFFF/svg?text=Time",
-    "description": "Time Zone Converter Pro is the indispensable tool for international travelers, remote teams, and global business managers, providing instant, accurate conversions across all time zones worldwide with daylight savings awareness. The application features a dynamic 'Meeting Planner' utility that allows you to select multiple cities and find the optimal overlap for group calls, displaying available times in a simple, visual grid. You can track up to 20 frequently used time zones on a clean, customizable dashboard. Real-time clock display with local weather for each tracked location enhances planning. A dedicated 'International Holiday Calendar' prevents scheduling conflicts during major global observances. Its intuitive interface and reliable data synchronization make coordinating across continents effortless, saving valuable time and minimizing confusion when scheduling critical calls, ensuring seamless communication across all geographical boundaries without manual calculation errors.",
-    "size": 15.6,
-    "reviews": 60000,
-    "downloads": 3000000,
-    "ratingAvg": 4.7,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 3000 },
-      { "name": "4 star", "count": 18000 },
-      { "name": "5 star", "count": 38000 }
-    ]
   }
 ]
