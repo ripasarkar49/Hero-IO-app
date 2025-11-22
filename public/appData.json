@@ -1,0 +1,560 @@
+[
+  {
+    "id": 101,
+    "title": "AuraFlow Meditation",
+    "companyName": "Zenith Wellness",
+    "image": "https://i.ibb.co.com/k2yQxGj6/1.jpg",
+    "description": "AuraFlow Meditation offers a truly immersive and personalized path to mental peace and well-being. Our expansive library features over 500 guided meditations spanning anxiety relief, stress reduction, deep sleep cycles, focused work sessions, and mindful eating. The app uses adaptive soundscapes that dynamically adjust based on your chosen meditation type and ambient noise level, providing a truly unique auditory experience. New content, including exclusive celebrity-narrated sleep stories and weekly masterclasses on resilience and emotional intelligence, is released every Monday. Furthermore, AuraFlow integrates seamlessly with major health platforms, allowing you to track your minutes of mindfulness and monitor heart rate variability trends over time, helping you visualize the tangible benefits of consistent practice. The advanced statistics dashboard provides deep insights into your mental performance patterns, guiding you toward better habits and sustained inner calm. This comprehensive approach ensures that whether you're a beginner seeking basic breathing exercises or an experienced meditator looking for advanced visualizations, AuraFlow provides the necessary tools for your entire journey towards optimal mental health.",
+    "size": 95.5,
+    "reviews": 125890,
+    "downloads": 5000000,
+    "ratingAvg": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 5990 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 91000 }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Quantum Task Manager",
+    "companyName": "Productivity Dynamics",
+    "image": "https://i.ibb.co.com/XfD6Ntw3/2.jpg",
+    "description": "Quantum Task Manager revolutionizes how you approach productivity by integrating cutting-edge AI prioritization into your daily workflow. This powerful tool goes beyond simple to-do lists, utilizing machine learning algorithms to analyze your deadlines, effort required, and scheduled meetings to suggest the most impactful tasks to tackle next. It supports complex project hierarchies, Kanban boards, and Gantt charts for visual project management across teams. Real-time collaboration features allow shared task lists, delegated responsibilities, and integrated chat functionality, making it ideal for both personal use and corporate teams. You can connect it with your email and calendar to automatically convert invitations and flagged messages into actionable tasks. Furthermore, the habit tracking module encourages consistency, and the weekly progress report summarizes achievements and identifies bottlenecks in your work process, helping you maintain peak efficiency throughout the year, ensuring no critical task is ever missed.",
+    "size": 45.2,
+    "reviews": 89450,
+    "downloads": 1500000,
+    "ratingAvg": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5950 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 53000 }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Astro Explorer 3D",
+    "companyName": "Cosmic Simulations Ltd",
+    "image": "https://i.ibb.co.com/8LcqNWrH/3.jpg",
+    "description": "Astro Explorer 3D delivers an unparalleled interactive experience of the cosmos, ideal for astronomy students, educators, and space enthusiasts of all ages. This powerful simulation renders the entire solar system, including over 100,000 stars, major satellites, and deep-sky objects, in stunning, high-definition 3D detail. Users can freely navigate through space, zoom in on planetary surfaces with realistic texture maps, and observe real-time planetary alignments and celestial events like eclipses and meteor showers. The built-in educational mode offers voice-over descriptions and detailed fact sheets for every celestial body, explaining its composition, history, and scientific significance. Time-warp functionality allows you to jump millions of years into the past or future to observe cosmic evolution. Weekly updates integrate the latest discoveries from major space agencies like NASA and ESA, ensuring the content is always current and scientifically accurate, making it the most comprehensive guide to the universe available on mobile platforms today.",
+    "size": 480.9,
+    "reviews": 32100,
+    "downloads": 950000,
+    "ratingAvg": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Pixel Rush: Retro Racer",
+    "companyName": "Neon Games Studio",
+    "image": "https://i.ibb.co.com/dzvsT01/4.jpg",
+    "description": "Pixel Rush is a triumphant return to the golden age of arcade gaming, delivering fast-paced, addictive racing action with authentic 8-bit graphics and a pulsating synth-wave soundtrack. Experience the adrenaline rush across 50 unique tracks, each designed with increasingly challenging hairpin turns, jumps, and obstacles that demand precision driving. Unlock and customize over 30 retro-style vehicles, each with distinct handling and upgrade paths for engine speed, nitro boost, and tire grip. The robust single-player campaign features time trials and championship modes, but the real fun lies in the asynchronous multiplayer mode where you race against the ghosts of other top players globally to climb the worldwide leaderboards. Constant seasonal updates introduce new tracks, cars, and limited-time events, keeping the challenge fresh. Requires high-level hand-eye coordination and a serious dose of nostalgia for retro gaming enthusiasts. Prepare for the ultimate rush of pixelated speed!",
+    "size": 78.1,
+    "reviews": 310500,
+    "downloads": 10000000,
+    "ratingAvg": 4.2,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 25500 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Expense Tracker Pro",
+    "companyName": "Finance Flow Inc.",
+    "image": "https://i.ibb.co.com/ynjt5xmN/5.jpg",
+    "description": "Expense Tracker Pro is the definitive tool for effortless personal finance management, providing real-time synchronization with over 10,000 major banks and financial institutions globally through secure encryption protocols. The application automatically categorizes all your transactions, offering an intuitive dashboard to visualize spending habits, set monthly budgets for different categories (like groceries, rent, and entertainment), and receive proactive alerts when approaching spending limits. Features include recurring payment management, customizable financial reports exported as CSV or PDF, and a powerful 'Goal Tracker' to plan for large purchases or savings targets like a down payment or retirement fund. The app also supports multiple currencies and is ideal for travelers or those managing international accounts. Its robust security, including biometric authentication and end-to-end encryption, ensures your sensitive financial data remains private and protected at all times, making complex budgeting simple and accurate.",
+    "size": 33.7,
+    "reviews": 55920,
+    "downloads": 3000000,
+    "ratingAvg": 4.6,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1120 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 35000 }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Code Snippet Vault",
+    "companyName": "DevTools Solutions",
+    "image": "https://i.ibb.co.com/R1V9ZMp/6.png",
+    "description": "Code Snippet Vault is the essential companion for developers looking to maximize efficiency by meticulously organizing and rapidly accessing their reusable code snippets. The app supports over 50 programming languages, offering crystal-clear syntax highlighting and automatic language detection upon pasting. You can organize snippets using nested folders, customizable tags, and descriptive metadata, making specific functions or configurations instantly searchable. All data is securely synchronized across all your devices via encrypted cloud storage, ensuring your vault is always up-to-date whether you are coding on a desktop or on the go. Key features include a markdown preview for documentation, keyboard shortcuts for fast insertion into your IDE, and version history to track changes in critical code blocks. It is designed to minimize context switching and drastically reduce the time spent rewriting boilerplate code, allowing you to focus purely on complex problem-solving and feature development for your projects.",
+    "size": 12.3,
+    "reviews": 9800,
+    "downloads": 120000,
+    "ratingAvg": 4.9,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Recipe Master AI",
+    "companyName": "Kitchen Innovators",
+    "image": "https://i.ibb.co.com/gLYDXnW0/7.jpg",
+    "description": "Recipe Master AI transforms the way you cook by leveraging artificial intelligence to generate personalized recipes instantly based on the ingredients you already have in your pantry and fridge. Simply snap a photo of your available items or manually input the components, and the AI will suggest gourmet meals, quick snacks, or specific dietary options (keto, vegan, gluten-free) that utilize those ingredients effectively. The app features a 'Smart Shopping List' that automatically updates based on the recipes you plan to make and suggests substitutes for missing items. Each recipe comes with step-by-step instructions, integrated cooking timers, and video tutorials for complex techniques. Users can rate, review, and share their creations with a vibrant community of home chefs. Furthermore, the nutrition calculator provides a detailed breakdown of calories, macros, and allergens for every dish, ensuring you meet your health goals while enjoying delicious, zero-waste cooking.",
+    "size": 55.6,
+    "reviews": 45300,
+    "downloads": 2200000,
+    "ratingAvg": 4.4,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 15800 },
+      { "name": "5 star", "count": 16000 }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Fitness Blitz Tracker",
+    "companyName": "Health Leap Co.",
+    "image": "https://i.ibb.co.com/gFVdWFcR/8.jpg",
+    "description": "Fitness Blitz Tracker is your all-in-one digital personal trainer, offering comprehensive tracking for every aspect of your health and fitness journey, designed for all levels from beginners to elite athletes. The app features a vast library of over 1,000 exercises with detailed video demonstrations and form-checking guides, ensuring safety and efficacy. You can choose from pre-set workout plans (HIIT, strength, yoga) or utilize the AI coach to generate personalized training regimes based on your current fitness level, goals, and available equipment. Real-time metrics tracking includes heart rate zones, estimated calorie burn, distance covered via GPS for runs, and weightlifting progression. It seamlessly integrates with wearable devices for automatic data sync. The nutrition log allows for easy food entry and macro tracking. Weekly challenges and badge rewards maintain motivation, and detailed historical data and visualization graphs help you celebrate milestones and identify areas for improvement in your overall wellness.",
+    "size": 110.8,
+    "reviews": 155000,
+    "downloads": 7500000,
+    "ratingAvg": 4.3,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Photo Editor Plus",
+    "companyName": "Creative Studio",
+    "image": "https://i.ibb.co.com/Rk8W0t2N/9.png",
+    "description": "Photo Editor Plus brings professional-grade image manipulation tools typically reserved for desktop software directly to your mobile device, empowering you to create stunning visuals quickly and intuitively. It features non-destructive editing layers, allowing you to backtrack and fine-tune adjustments without losing original image quality. The advanced toolkit includes precise curve adjustments, HSL color grading, selective masking tools, and over 150 curated filters and effects that can be customized and saved as presets. AI-powered features offer automatic object removal, sky replacement, and facial retouching with a single tap. The application handles high-resolution images, including RAW formats, seamlessly. Project file support means you can save your work and resume editing across sessions. Whether you're a casual photographer or a professional graphic designer, Photo Editor Plus offers the depth and precision needed to transform your vision into reality, and then easily export your final art in multiple formats.",
+    "size": 150.1,
+    "reviews": 450000,
+    "downloads": 25000000,
+    "ratingAvg": 4.1,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 85000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 170000 }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Language Burst: Spanish",
+    "companyName": "Global Learnings",
+    "image": "https://i.ibb.co.com/mF0QZ9Q9/10.jpg",
+    "description": "Language Burst uses an innovative, gamified learning system designed by expert linguists to help you achieve fluency in conversational Spanish significantly faster than traditional methods. The curriculum is broken down into bite-sized, five-minute lessons focusing on practical, real-world dialogue and essential grammar structures. Interactive exercises include speech recognition technology to instantly correct your pronunciation, personalized flashcards using spaced repetition, and immersive story-driven scenarios to practice contextual understanding. Progress through different 'levels' and compete with friends on weekly leaderboards to maintain motivation. The optional AI Tutor feature provides 24/7 conversation practice on any topic, offering immediate feedback on vocabulary and sentence construction. Beyond basic phrases, the app covers intermediate and advanced topics, including regional dialects and cultural context, ensuring you are prepared not just to speak, but to truly understand and engage with Spanish culture and native speakers effectively.",
+    "size": 68.4,
+    "reviews": 78900,
+    "downloads": 4000000,
+    "ratingAvg": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 23500 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Weather Watch Global",
+    "companyName": "Atmosphere Tech",
+    "image": "https://i.ibb.co.com/WN7SMNYM/11.jpg",
+    "description": "Weather Watch Global provides unparalleled meteorological precision, delivering hyper-local forecasts minute-by-minute for your exact location, ensuring you are always prepared for changing conditions. Our advanced radar mapping uses satellite imagery and proprietary algorithms to show storm paths, precipitation intensity, and temperature changes up to 15 days in advance with high accuracy. Key features include highly customizable severe weather alerts (lightning, heavy rain, wind speed) delivered via push notification, a comprehensive air quality index (AQI) display, and real-time pollen count tracking for allergy sufferers. The dynamic interface visualizes weather patterns in a clean, easy-to-read format, including hourly wind chill, humidity, and UV index. The global coverage ensures reliable information whether you are at home or traveling internationally. This is more than just a forecast; it's a critical planning tool for outdoor enthusiasts, commuters, and anyone who needs reliable atmospheric data at their fingertips.",
+    "size": 25.8,
+    "reviews": 210000,
+    "downloads": 12000000,
+    "ratingAvg": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 90000 }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Zombie Defense Arena",
+    "companyName": "Survival Games Inc.",
+    "image": "https://i.ibb.co.com/KxCCrQrm/12.png",
+    "description": "Zombie Defense Arena pits players in a thrilling, high-stakes tower defense experience against relentless waves of the undead, combining deep strategy with explosive action and stunning graphics. Command a diverse roster of survivors and specialized defense towers, each with unique upgrade paths and tactical advantages against different zombie types (e.g., speedsters, tanks, screamers). The campaign spans 10 distinct post-apocalyptic zones with unique environmental challenges and boss encounters that require precise timing and resource management. Multiplayer mode allows for co-op defense with friends, or competitive arena matches where you deploy your own zombie hordes to sabotage rivals. Regular community challenges and seasonal events introduce new maps, legendary heroes, and limited-edition weapons. Success requires optimizing your tower placements, managing your limited currency under pressure, and strategically activating hero abilities to turn the tide against overwhelming odds. This game is intense, addictive, and constantly evolving with new content and community feedback.",
+    "size": 220.7,
+    "reviews": 60500,
+    "downloads": 1800000,
+    "ratingAvg": 3.9,
+    "ratings": [
+      { "name": "1 star", "count": 6500 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Simple Note Pad",
+    "companyName": "Utility Tools Hub",
+    "image": "https://i.ibb.co.com/v649Ny5L/13.jpg",
+    "description": "Simple Note Pad is designed with pure minimalism and speed in mind, providing an utterly distraction-free environment for quickly capturing thoughts, making lists, and jotting down essential information. The interface is clean, utilizing a soothing light/dark theme that adapts to ambient conditions. Notes are instantly saved locally and optionally backed up to a secure cloud service with end-to-end encryption. The robust search function allows you to find any text snippet immediately, even within thousands of entries, using keywords or date filters. Key organizational features include customizable color-coding, pin-to-top functionality for critical reminders, and one-tap share options for collaboration. Unlike bloated word processors, this app focuses exclusively on core note-taking efficiency, boasting a tiny installation footprint and near-instantaneous load times, making it the perfect replacement for physical sticky notes and ensuring that you never miss capturing a fleeting idea or important piece of data again.",
+    "size": 5.1,
+    "reviews": 15000,
+    "downloads": 800000,
+    "ratingAvg": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Ebook Reader Deluxe",
+    "companyName": "Digital Library Corp.",
+    "image": "https://i.ibb.co.com/svCwnQKN/14.jpg",
+    "description": "Ebook Reader Deluxe provides the ultimate, highly customizable reading experience, supporting virtually all major digital book formats including EPUB, PDF, MOBI, and DJVU. The reader engine is optimized for smooth page turns and fast rendering of even complex or image-heavy documents. Personalization options are extensive, allowing users to fine-tune font styles (including dyslexia-friendly fonts), text size, line height, margins, and background colors to reduce eye strain. The built-in dictionary and Wikipedia lookup feature provide instant information without leaving the page. Advanced study tools include unlimited highlighting, note-taking, and bookmark creation, all securely synchronized across devices. The app also features a powerful library management system for organizing your collection by author, genre, or custom tags. Furthermore, its night mode with adjustable blue light filter makes late-night reading comfortable and enjoyable, truly maximizing your digital reading pleasure.",
+    "size": 42.0,
+    "reviews": 99500,
+    "downloads": 4500000,
+    "ratingAvg": 4.6,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 5500 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 66000 }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Home Security Monitor",
+    "companyName": "SmartGuard Systems",
+    "image": " https://i.ibb.co.com/SXWTfK05/15.jpg",
+    "description": "Home Security Monitor acts as the central hub for all your smart home security devices, providing seamless remote viewing and control over cameras, doorbells, and connected smart locks from anywhere in the world. The application supports real-time, high-definition video streaming with minimal latency, and two-way audio communication through compatible devices. Advanced motion detection alerts are highly configurable, allowing you to specify zones and sensitivity levels to minimize false alarms. Event history is stored securely in the cloud, accessible for review at any time. Features include geo-fencing to automatically arm/disarm the system when you leave or arrive home, one-tap emergency call functionality, and integration with major voice assistants for hands-free control. Prioritizing user safety and privacy, all video streams and data transmissions are secured with military-grade encryption, giving you peace of mind that your home and data are protected 24/7.",
+    "size": 65.3,
+    "reviews": 18000,
+    "downloads": 600000,
+    "ratingAvg": 4.3,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Digital Art Studio",
+    "companyName": "Creative Canvas Inc.",
+    "image": " https://i.ibb.co.com/x85r8GM4/16.jpg",
+    "description": "Digital Art Studio is a comprehensive creative suite built for both professional artists and enthusiastic hobbyists, offering a powerful blend of vector and raster tools on a single, intuitive platform. The app features an unlimited layering system with customizable blending modes, making complex compositing and non-destructive editing simple. Our proprietary brush engine simulates real-world mediums like oil, watercolor, and charcoal with exceptional accuracy, offering full stylus pressure and tilt sensitivity control. Advanced features include symmetry tools, perspective guides, color palette management with import/export options, and animation timeline functionality for creating short clips or GIFs. Cloud synchronization allows you to seamlessly continue projects across different devices and operating systems. Export options support high-resolution print formats (CMYK) and digital formats, ensuring your artwork is ready for any medium or platform, establishing this as the premier app for digital creation.",
+    "size": 180.5,
+    "reviews": 85000,
+    "downloads": 4800000,
+    "ratingAvg": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25500 },
+      { "name": "5 star", "count": 52000 }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Stock Market Tracker",
+    "companyName": "Invest Smartly",
+    "image": "https://i.ibb.co.com/Z6Mkfsch/17.jpg",
+    "description": "Stock Market Tracker provides professional-grade tools for monitoring, analyzing, and managing your entire investment portfolio, suitable for both day traders and long-term investors. Get real-time, tick-by-tick stock quotes, customizable candlestick charts with technical indicators (MACD, RSI, Bollinger Bands), and instant news alerts from major financial publications. The portfolio management feature allows you to track gains, losses, and dividend payments across multiple brokerage accounts with secure read-only integration. Our proprietary AI engine provides sentiment analysis and volatility forecasts for thousands of global equities and cryptocurrencies. Users can set personalized price alerts and utilize the paper trading simulator to test strategies risk-free before committing real capital. The educational resources section includes tutorials on fundamental and technical analysis, helping users sharpen their investment skills and make data-driven decisions confidently in volatile market conditions.",
+    "size": 60.1,
+    "reviews": 210000,
+    "downloads": 8500000,
+    "ratingAvg": 4.4,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 72000 },
+      { "name": "5 star", "count": 75000 }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "World Atlas Quiz",
+    "companyName": "Geo-Learning Games",
+    "image": "https://i.ibb.co.com/wFrCgwRr/18.jpg",
+    "description": "World Atlas Quiz offers a fun, addictive, and highly effective way to expand your geographical knowledge through various interactive trivia and challenge modes suitable for students and globe-trotters alike. Test your mastery of the world with over 10,000 unique questions covering country names, capital cities, national flags, major landmarks, and geographical features like rivers and mountains. Game modes include 'Time Attack' to test your speed, 'Survival' for endurance, and a specialized 'Continent Challenge' to master specific regions. Detailed performance metrics and beautiful, high-resolution maps accompany every incorrect answer to ensure a learning experience. Compete for the top spot on the international leaderboards and unlock rare achievement badges by demonstrating superior global awareness. Regular updates introduce new challenge packs focusing on specific geopolitical or historical facts, ensuring the learning experience is continuously fresh and engaging for long-term use.",
+    "size": 40.2,
+    "reviews": 12000,
+    "downloads": 550000,
+    "ratingAvg": 4.2,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Pet Health Log",
+    "companyName": "My Furry Friends Inc.",
+    "image": "https://i.ibb.co.com/4RX9GHfY/19.jpg",
+    "description": "Pet Health Log is the dedicated digital companion for responsible pet owners, simplifying the management of your beloved animal's health, diet, and schedule. Easily track critical health data, including vaccination dates, deworming schedules, and medication administration, with automated push reminders ensuring you never miss an important dose or appointment. The feeding tracker helps monitor caloric intake and diet consistency, crucial for managing pet weight and specific health conditions. You can store all veterinarian contact information and instantly share comprehensive health reports before appointments, saving time during check-ups. Supports multiple pets with individual profiles, custom photos, and personalized care dashboards. A built-in resource library offers expert advice on common pet ailments, emergency protocols, and behavioral training tips. This app centralizes all necessary information to ensure your furry, scaled, or feathered friend receives consistent, top-quality care throughout their life.",
+    "size": 30.5,
+    "reviews": 9500,
+    "downloads": 400000,
+    "ratingAvg": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Simple Calculator",
+    "companyName": "Utility Tools Hub",
+    "image": "https://i.ibb.co.com/LqDLFP8/20.jpg",
+    "description": "Simple Calculator delivers uncompromising speed and reliability for all your mathematical needs, blending a clean, minimalist interface with powerful scientific capabilities. It supports basic arithmetic, advanced trigonometric functions (sin, cos, tan), logarithms, square roots, and factorials, all easily accessible through intuitive gestures. The persistent history tape keeps a running log of all calculations, allowing you to review, copy, or reuse past results instantly. Customizable themes and large, high-contrast buttons ensure visibility and accessibility for all users, including those with visual impairments. Designed to be lightweight and load instantaneously, this app is the perfect everyday replacement for a hardware calculator. Beyond the standard functions, it includes a unit converter for common measurements (length, weight, temperature) and a dedicated tipping calculator, solidifying its place as the essential, versatile tool for both daily life and complex academic work.",
+    "size": 4.5,
+    "reviews": 350000,
+    "downloads": 50000000,
+    "ratingAvg": 4.9,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 290000 }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "4K Wallpaper Hub",
+    "companyName": "Screen Aesthetics",
+    "image": " https://i.ibb.co.com/WpqZ5jxy/21.jpg",
+    "description": "4K Wallpaper Hub is the premier destination for transforming your device's background with a vast, ever-expanding collection of curated ultra HD and 4K resolution images, manually vetted for the highest aesthetic and technical quality. Browse categories ranging from minimalist abstract designs and stunning cinematic landscapes to vibrant geometric patterns and high-contrast photography. The application features daily content updates, ensuring a fresh selection every 24 hours. Custom tools allow you to preview how a wallpaper looks on your specific device (including lock screen and home screen previews) before downloading. Optimization features automatically resize and crop images to perfectly fit any screen dimension without distortion, from small mobile phones to large tablets. Favorites can be saved for later, and the 'Auto-Change' feature can cycle your background at custom intervals, keeping your device display dynamic and visually exciting throughout the week.",
+    "size": 75.9,
+    "reviews": 180000,
+    "downloads": 15000000,
+    "ratingAvg": 4.6,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 90000 }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Chess Master Trainer",
+    "companyName": "Grandmaster Software",
+    "image": "https://i.ibb.co.com/JRK4sQtK/22.jpg",
+    "description": "Chess Master Trainer is the ultimate tool for serious players, utilizing world-class engine analysis and personalized training modules to elevate your game across all three phases: opening, middlegame, and endgame. The app features over 50,000 carefully curated tactics puzzles ranked by difficulty using an Elo system, providing targeted practice to improve pattern recognition. The 'Opening Explorer' allows you to master over 100 opening lines with comprehensive statistical data and master game examples. Real-time game analysis provides detailed move-by-move feedback, identifying blunders, mistakes, and brilliant moves. Users can import PGN files from their own games for deep self-review. The interactive endgame tutorials cover critical positions and techniques. Whether you are a club player aiming for an expert rating or a casual player looking to crush your friends, this app provides the structure, data, and resources needed for rapid, measurable improvement in the complex art of chess.",
+    "size": 90.0,
+    "reviews": 45000,
+    "downloads": 1500000,
+    "ratingAvg": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Home Gardening Guide",
+    "companyName": "Green Thumb Digital",
+    "image": " https://i.ibb.co.com/dwvFrW71/23.jpg",
+    "description": "Home Gardening Guide is the essential resource for nurturing healthy, thriving plants, whether you're tending a windowsill herb garden or a full backyard vegetable patch. The app features a comprehensive database of over 500 popular indoor and outdoor plants, each with detailed care instructions regarding soil type, light requirements, temperature tolerance, and pruning techniques. Key functions include automated watering and fertilization reminders customized to each plant's needs, and an AI-powered image recognition tool to instantly diagnose common pests and diseases, offering natural and chemical treatment recommendations. You can log growth progress, track harvest dates, and connect with a local community of gardeners to exchange tips and seeds. Seasonal planting calendars, based on your geographic location, ensure you sow and transplant at the optimal time for maximum yield, transforming even novice users into expert urban farmers.",
+    "size": 58.2,
+    "reviews": 11000,
+    "downloads": 350000,
+    "ratingAvg": 4.9,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Podcast Player Pro",
+    "companyName": "Audio Flow Media",
+    "image": " https://i.ibb.co.com/5x94rcFg/24.png",
+    "description": "Podcast Player Pro offers a sophisticated and reliable platform for discovering, listening to, and managing your entire collection of audio content, supporting both standard podcasts and audiobooks. The player boasts advanced controls, including variable playback speed (0.5x to 3.0x), silence skipping to save time, and a volume boost feature for quiet recordings. Smart filters allow you to automatically download new episodes from subscribed shows and curate playlists based on topic, length, or time of day. The discovery engine uses machine learning to suggest new, high-quality shows tailored to your listening history, browsing through a catalog of over 2 million titles. Offline mode ensures you can download and listen anywhere without connectivity. Cloud sync maintains your playback position and subscription list across all devices, making the transition between your phone, tablet, and desktop seamless and ensuring you never lose your place in a binge-worthy series.",
+    "size": 48.9,
+    "reviews": 150000,
+    "downloads": 6000000,
+    "ratingAvg": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 17000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 75000 }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Cryptography Sandbox",
+    "companyName": "Secure Dev Labs",
+    "image": "https://i.ibb.co.com/cK71kbry/25.jpg",
+    "description": "Cryptography Sandbox is an interactive learning and experimentation tool designed for students, security professionals, and developers to understand the fundamentals of modern and classical cryptographic algorithms. The sandbox allows users to input custom plaintext and keys to encrypt and decrypt using popular algorithms like AES-256, RSA, Caesar Cipher, and SHA-256 hashing. Visual representations of the underlying mathematical processes help demystify complex concepts, showing step-by-step how data transformation occurs. Features include a side-by-side comparison mode to analyze the output and performance of different ciphers, a modular arithmetic calculator, and a comprehensive glossary of security terms. The application is entirely self-contained and operates offline, providing a safe, controlled environment to break, test, and master the core principles of data security and information theory without external risks or network connectivity, serving as an invaluable academic and practical resource.",
+    "size": 22.1,
+    "reviews": 5500,
+    "downloads": 90000,
+    "ratingAvg": 4.3,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Local Hiking Trails",
+    "companyName": "Explore Outdoors Co.",
+    "image": "https://i.ibb.co.com/zHLHPKPD/26.jpg",
+    "description": "Local Hiking Trails is the definitive guide for exploring the wilderness in your region, providing detailed, high-resolution topographical maps that are fully accessible offline. The app features thousands of user-contributed and verified trails, complete with difficulty ratings (easy, moderate, strenuous), distance, estimated completion time, and elevation profiles visualized in interactive 3D graphs. Key safety features include built-in GPS tracking to record your route and real-time location sharing with emergency contacts. Users can download maps for specific regions prior to setting out, ensuring navigation capability even in areas with no cellular service. The community platform allows hikers to submit trail condition reports, photos of views, and notes on local wildlife or hazards. Specialized filters help you find dog-friendly, kid-friendly, or wheelchair-accessible paths, making the great outdoors accessible and safe for everyone, regardless of experience level.",
+    "size": 155.0,
+    "reviews": 65000,
+    "downloads": 2500000,
+    "ratingAvg": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Budget Planner 365",
+    "companyName": "Finance Flow Inc.",
+    "image": " https://i.ibb.co.com/84r42TQC/27.jpg",
+    "description": "Budget Planner 365 offers a robust, year-round solution for financial stability, providing sophisticated tools for monthly budgeting, expense forecasting, and systematic debt management. The application employs the 50/30/20 rule (Needs/Wants/Savings) as a customizable template, helping users allocate income effectively. Features include automatic synchronization with bank accounts (read-only for security), highly customizable reporting to track year-over-year spending trends, and a 'Debt Snowball/Avalanche' calculator to optimize loan repayment strategies. Users can create shared budgets for household finances with real-time collaboration. The 'What If' scenario tool allows you to simulate the financial impact of major life changes, such as a new job or a large purchase, ensuring you can plan for the future with confidence and accuracy. This comprehensive system is designed to provide clarity and control over your money, turning complex personal finance into a manageable daily task.",
+    "size": 38.4,
+    "reviews": 72000,
+    "downloads": 3200000,
+    "ratingAvg": 4.6,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Vintage Camera Filters",
+    "companyName": "Nostalgia Shots",
+    "image": "https://i.ibb.co.com/Tqrk2f3q/28.png",
+    "description": "Vintage Camera Filters specializes in applying authentic, analog film effects, light leaks, and highly realistic dust textures to your modern digital photos, transforming them with a nostalgic, timeless aesthetic. Choose from a library of over 50 classic film simulations, meticulously replicated from vintage cameras like Polaroid, Kodak Portra, and Super 8. The robust editing suite allows for non-destructive adjustments to fine-tune the intensity of the grain, color saturation shifts, vignetting, and light leak placement. Features include a randomizer function for instant 'happy accidents' and the ability to save your custom filter combinations as personalized presets. The app supports batch processing of photos and integrates seamlessly with your device's photo library. This tool is perfect for creators looking to evoke a specific era or mood in their photography, offering professional-grade results that capture the charm and imperfections of analog media.",
+    "size": 115.9,
+    "reviews": 90000,
+    "downloads": 5500000,
+    "ratingAvg": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "3D Modeling Toolkit",
+    "companyName": "Spatial Design Labs",
+    "image": "https://placehold.co/100x100/F05F7D/FFFFFF/svg?text=3D",
+    "description": "3D Modeling Toolkit is a streamlined, mobile-first application that empowers users to create, manipulate, and texture complex 3D meshes using intuitive touch controls, perfect for artists, architects, and game designers on the move. The app supports polygonal modeling, sculpting tools, and non-uniform scaling, with a real-time ray-tracing preview engine to visualize materials and lighting accurately. Key features include full support for importing and exporting industry-standard formats (OBJ, FBX, STL), a PBR (Physically Based Rendering) material library, and an advanced UV unwrapping utility. The collaborative mode allows multiple users to work on the same model simultaneously with cloud synchronization. This powerful toolkit removes the barrier of entry to 3D design, providing professional features typically found only in high-end desktop software, ensuring complex creation can happen anywhere, and transforming abstract concepts into tangible digital models efficiently.",
+    "size": 350.5,
+    "reviews": 25000,
+    "downloads": 750000,
+    "ratingAvg": 4.6,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12200 }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Digital Sheet Music Viewer",
+    "companyName": "Melody Software",
+    "image": "https://placehold.co/100x100/3B82F6/FFFFFF/svg?text=Music",
+    "description": "Digital Sheet Music Viewer is an essential tool for musicians, allowing effortless viewing, annotation, and organization of your entire sheet music collection, eliminating the need for bulky physical binders. The app supports PDF and MusicXML formats with specialized rendering for crystal-clear legibility. Key features include hands-free page turning via Bluetooth foot pedal support, a built-in metronome with visual beat tracking, and a recording function to document practice sessions. Advanced annotation tools allow for custom fingerings, dynamics markings, and text notes that overlay non-destructively onto the score. You can create custom setlists for performances, instantly transpose scores to different keys, and share annotated versions with band members or students via cloud services. Designed for both classical and contemporary musicians, this app modernizes the performance and practice experience by integrating digital convenience with traditional musical rigor.",
+    "size": 72.8,
+    "reviews": 19000,
+    "downloads": 900000,
+    "ratingAvg": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Time Zone Converter Pro",
+    "companyName": "Global Connect Tools",
+    "image": "https://placehold.co/100x100/06B6D4/FFFFFF/svg?text=Time",
+    "description": "Time Zone Converter Pro is the indispensable tool for international travelers, remote teams, and global business managers, providing instant, accurate conversions across all time zones worldwide with daylight savings awareness. The application features a dynamic 'Meeting Planner' utility that allows you to select multiple cities and find the optimal overlap for group calls, displaying available times in a simple, visual grid. You can track up to 20 frequently used time zones on a clean, customizable dashboard. Real-time clock display with local weather for each tracked location enhances planning. A dedicated 'International Holiday Calendar' prevents scheduling conflicts during major global observances. Its intuitive interface and reliable data synchronization make coordinating across continents effortless, saving valuable time and minimizing confusion when scheduling critical calls, ensuring seamless communication across all geographical boundaries without manual calculation errors.",
+    "size": 15.6,
+    "reviews": 60000,
+    "downloads": 3000000,
+    "ratingAvg": 4.7,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 38000 }
+    ]
+  }
+]

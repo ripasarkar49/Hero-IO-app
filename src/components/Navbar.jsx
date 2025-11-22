@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link, NavLink } from "react-router";
 import logo from "../assets/logo.png";
+import { IoIosHome } from "react-icons/io";
 const Navbar = () => {
   const navItems = [
     { path: "/", label: "Home" },
