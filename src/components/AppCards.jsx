@@ -1,8 +1,9 @@
 import React from "react";
 import { FaDownload, FaRegStar } from "react-icons/fa";
+import { Link } from "react-router";
 
 const AppCards = ({ app }) => {
-  const { image, title, downloads, ratingAvg: rating } = app;
+  const { image, title, downloads, ratingAvg: rating,id } = app;
   const formatCount = (num) => {
     if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
     if (num >= 1000) return (num / 1000).toFixed(0) + "K";
@@ -12,7 +13,7 @@ const AppCards = ({ app }) => {
   const formattedDownloads = formatCount(downloads);
   //   const formattedReviews = formatCount(reviews);
   return (
-    <div className="card bg-base-100 border shadow-sm hover:scale-105 transition ease-in-out">
+    <Link to={`/app/${id}`} className="card bg-base-100 border shadow-sm hover:scale-105 transition ease-in-out">
       <figure className="h-48  overflow-hidden">
         <img className="w-full object-cover" src={image} alt="" />
       </figure>
@@ -29,7 +30,7 @@ const AppCards = ({ app }) => {
           </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
