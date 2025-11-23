@@ -1,16 +1,26 @@
-# React + Vite
+# Assignment Name: HERO-IO-APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description :
 
-Currently, two official plugins are available:
+HERO-IO =>is a modern web application that showcases a collection of apps with features like installation tracking, search, sorting, ratings visualization, and more. Users can install/uninstall apps, view app details, ratings charts, and explore the list of installed apps in a responsive and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates the use of React, local storage management, charts for ratings, and dynamic UI updates with state management.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+=> Browse all applications with a search bar.
+=> Install/Uninstall apps with toast notifications.
+=> Sort apps by size (ascending/descending).
+=> Visualize app ratings with bar charts.
+=> View app details including downloads, ratings, and reviews.
+=> Responsive layout for all devices.
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=> **React.js** – Frontend library for building UI.
+=> **React Router** – Navigation between pages.
+=> **Recharts** – For bar charts and data visualization.
+=> **React Toastify** – Toast notifications for user actions.
+=> **Tailwind CSS & DaisyUI** – Styling and responsive layout.
+=> **LocalStorage** – Store installed apps locally.
+=> **React Icons** – Icons for ratings, downloads, and likes.

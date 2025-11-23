@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import UseApp from "../hooks/UseApp";
 import { FaDownload, FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   Bar,
   BarChart,
@@ -12,11 +14,23 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+
 const AppDeatails = () => {
   const { id } = useParams();
   const { apps, loading, error } = UseApp();
   const app = apps.find((a) => String(a.id) === id);
-  if (loading) return <p>loading............</p>;
+
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const existingList = JSON.parse(localStorage.getItem("installation")) || [];
+    const alreadyInstalled = existingList.some((a) => a.id === app?.id);
+    setIsInstalled(alreadyInstalled);
+  }, [app?.id]);
+
+  if (loading) return <p>Loading...</p>;
+  if (!app) return <p>No data found!</p>;
+
   const {
     image,
     title,
@@ -28,26 +42,33 @@ const AppDeatails = () => {
     ratings,
     description,
   } = app;
+
   const formatCount = (num) => {
     if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
     if (num >= 1000) return (num / 1000).toFixed(0) + "K";
     return num;
   };
+
   const formattedDownloads = formatCount(downloads);
   const formattedReviews = formatCount(reviews);
   const formattedSize = size ? ` (${size.toFixed(0)} MB)` : "";
 
   const handleAppInstall = () => {
-    const existingList = JSON.parse(localStorage.getItem("installation"));
-    let updatedList = [];
-    if (existingList) {
-      const isDuplicate = existingList.some((a) => a.id === app.id);
-      if (isDuplicate) return alert("sorry");
-      updatedList = [...existingList, app];
-    } else {
-      updatedList.push(app);
+    const existingList = JSON.parse(localStorage.getItem("installation")) || [];
+
+    const isDuplicate = existingList.some((a) => a.id === app.id);
+
+    if (isDuplicate) {
+      toast.warning("App already installed!", {
+        position: "top-right",
+      });
+      return;
     }
-    localStorage.setItem("installation", JSON.stringify(updatedList));
+
+    existingList.push(app);
+    localStorage.setItem("installation", JSON.stringify(existingList));
+    setIsInstalled(true);
+    toast.success("App installed!", { position: "top-right" });
   };
 
   return (
@@ -62,13 +83,16 @@ const AppDeatails = () => {
             />
           </figure>
         </div>
+
         <div className="card-body p-0 grow">
           <h2 className="card-title font-bold text-xl md:text-3xl">{title}</h2>
           <p className="text-sm md:text-base">
             <span>Developed by</span>
             <span className="text-purple-400"> {companyName}</span>
           </p>
+
           <div className="w-full h-px bg-gray-400 my-2"></div>
+
           <div className="grid grid-cols-3 gap-4 md:flex md:gap-16 text-sm md:text-base">
             <div className="flex flex-col items-center text-center">
               <FaDownload size={28} className="text-green-900" />
@@ -77,6 +101,7 @@ const AppDeatails = () => {
                 {formattedDownloads}
               </h2>
             </div>
+
             <div className="flex flex-col items-center text-center">
               <FaStar size={28} className="text-yellow-600" />
               <p className="text-gray-600">Average Ratings</p>
@@ -84,6 +109,7 @@ const AppDeatails = () => {
                 {rating.toFixed(1)}
               </h2>
             </div>
+
             <div className="flex flex-col items-center text-center">
               <AiFillLike size={28} className="text-purple-600" />
               <p className="text-gray-600">Total Reviews</p>
@@ -92,17 +118,22 @@ const AppDeatails = () => {
               </h2>
             </div>
           </div>
+
           <div className="mt-4">
             <button
               onClick={handleAppInstall}
               className="btn btn-success w-full md:w-auto"
             >
-              Install Now {formattedSize}
+              {isInstalled ? "Installed" : "Install Now"} {formattedSize}
             </button>
+
+            <ToastContainer />
           </div>
         </div>
       </div>
+
       <div className="w-full h-px bg-gray-400 my-10"></div>
+
       <div>
         <div className="h-64 mx-auto">
           <h2 className="text-2xl font-bold">Ratings:</h2>
@@ -117,49 +148,29 @@ const AppDeatails = () => {
                 vertical={false}
                 stroke="#e5e7eb"
               />
-
               <YAxis
                 dataKey="name"
                 type="category"
                 fontSize={12}
                 axisLine={false}
                 tickLine={false}
-                tick={{ fill: "#4b5563", fontWeight: "500" }}
-                tickFormatter={(value) => `${value}`}
               />
-
               <XAxis
                 dataKey="count"
                 type="number"
                 fontSize={10}
-                tickFormatter={(value) =>
-                  value >= 1000 ? `${value / 1000}K` : value
-                }
-                domain={[0, "auto"]}
                 axisLine={false}
                 tickLine={false}
               />
-
-              <Tooltip
-                formatter={(value) => [value, "Total Reviews"]}
-                contentStyle={{
-                  borderRadius: "8px",
-                  border: "none",
-                  backgroundColor: "rgba(255, 255, 255, 0.9)",
-                }}
-              />
-
-              <Bar
-                dataKey="count"
-                fill="#FF8811"
-                barSize={12}
-                radius={[4, 4, 0, 0]}
-              />
+              <Tooltip />
+              <Bar dataKey="count" fill="#FF8811" barSize={12} />
             </BarChart>
           </ResponsiveContainer>
         </div>
       </div>
+
       <div className="w-full h-px bg-gray-400 my-10"></div>
+
       <div>
         <h2 className="text-2xl font-bold pb-5">Description</h2>
         <p>{description}</p>

@@ -1,14 +1,14 @@
 import React from "react";
-import PageError from "../assets/error-404.png";
 import { Link } from "react-router";
-const PageNotFound = () => {
+import dataError from "../assets/App-Error.png";
+const AppDataNotFount = () => {
   return (
     <div className="w-11/12 mx-auto min-h-screen space-y-5 flex flex-col items-center text-center p-10">
       <figure>
-        <img src={PageError} alt="" />
+        <img src={dataError} alt="" />
       </figure>
-      <h2 className="text-2xl font-bold">Oops, page not found!</h2>
-      <p className="text-xl">The page you are looking for is not available.</p>
+      <h2 className="text-2xl font-bold">OPPS!! APP NOT FOUND</h2>
+      <p className="text-xl">The App you are requesting is not found on our system.  please try another apps</p>
       <Link
         to="/"
         className="btn text-white font-medium 
@@ -17,10 +17,10 @@ const PageNotFound = () => {
                        hover:from-purple-600 hover:to-indigo-900
                        transition duration-300 shadow-md"
       >
-        Go Back
+        Go Back!
       </Link>
     </div>
   );
 };
 
-export default PageNotFound;
+export default AppDataNotFount;
