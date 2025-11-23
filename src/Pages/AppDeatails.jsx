@@ -36,6 +36,20 @@ const AppDeatails = () => {
   const formattedDownloads = formatCount(downloads);
   const formattedReviews = formatCount(reviews);
   const formattedSize = size ? ` (${size.toFixed(0)} MB)` : "";
+
+  const handleAppInstall = () => {
+    const existingList = JSON.parse(localStorage.getItem("installation"));
+    let updatedList = [];
+    if (existingList) {
+      const isDuplicate = existingList.some((a) => a.id === app.id);
+      if (isDuplicate) return alert("sorry");
+      updatedList = [...existingList, app];
+    } else {
+      updatedList.push(app);
+    }
+    localStorage.setItem("installation", JSON.stringify(updatedList));
+  };
+
   return (
     <div className="w-11/12 mx-auto py-10">
       <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-start">
@@ -79,7 +93,10 @@ const AppDeatails = () => {
             </div>
           </div>
           <div className="mt-4">
-            <button className="btn btn-success w-full md:w-auto">
+            <button
+              onClick={handleAppInstall}
+              className="btn btn-success w-full md:w-auto"
+            >
               Install Now {formattedSize}
             </button>
           </div>
