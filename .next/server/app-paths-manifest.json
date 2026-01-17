@@ -1,7 +1,10 @@
 {
-  "/not-found": "app/not-found.js",
+  "/my-apps/addapp/page": "app/my-apps/addapp/page.js",
   "/page": "app/page.js",
+  "/api/user-apps/route": "app/api/user-apps/route.js",
+  "/my-apps/page": "app/my-apps/page.js",
   "/app/page": "app/app/page.js",
+  "/app/[id]/page": "app/app/[id]/page.js",
   "/installation/page": "app/installation/page.js",
-  "/icon.png/route": "app/icon.png/route.js"
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }

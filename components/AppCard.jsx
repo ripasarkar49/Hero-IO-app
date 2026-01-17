@@ -5,12 +5,13 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge";
 
 export default function AppCard({ app }) {
-  const { image, title, downloads, ratingAvg: rating, id } = app;
+  const { image, title, downloads = 0, ratingAvg = 0, id } = app;
 
   const formatCount = (num) => {
-    if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
-    if (num >= 1000) return (num / 1000).toFixed(0) + "K";
-    return num;
+    const n = Number(num) || 0;
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+    if (n >= 1000) return (n / 1000).toFixed(0) + "K";
+    return n;
   };
 
   const formattedDownloads = formatCount(downloads);
@@ -38,7 +39,7 @@ export default function AppCard({ app }) {
             </Badge>
             <Badge variant="secondary" className="gap-1 bg-yellow-900/30 text-yellow-400 hover:bg-yellow-900/50">
               <Star className="w-3 h-3 fill-current" />
-              {rating.toFixed(1)}
+              {Number(ratingAvg || 0).toFixed(1)}
             </Badge>
           </div>
         </CardContent>

@@ -10,18 +10,14 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu, Github } from "lucide-react";
+import { Menu, Github, LogIn, LogOut, PackagePlus, List } from "lucide-react";
 import { useEffect, useState } from "react";
-
-const navItems = [
-  { path: "/", label: "Home" },
-  { path: "/app", label: "App" },
-  { path: "/installation", label: "Installation" },
-];
+import { useSession, signOut } from "next-auth/react";
 
 export default function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const { data: session } = useSession();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,6 +26,17 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const navItems = [
+    { path: "/", label: "Home" },
+    { path: "/app", label: "App" },
+    { path: "/installation", label: "Installation" },
+  ];
+
+  if (session) {
+    navItems.push({ path: "/my-apps", label: "My Apps" });
+    navItems.push({ path: "/my-apps/addapp", label: "Add App" });
+  }
 
   return (
     <header
@@ -78,19 +85,37 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <Button
             asChild
-            variant="default"
-            className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white shadow-lg shadow-purple-500/20"
+            variant="ghost"
+            className="flex items-center gap-2"
           >
             <a
               href="https://github.com/ripasarkar49"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2"
             >
               <Github className="w-4 h-4" />
               Contribute
             </a>
           </Button>
+
+          {session ? (
+            <Button
+              onClick={() => signOut()}
+              variant="outline"
+              className="border-red-500/20 text-red-500 hover:text-red-400 hover:bg-red-500/10"
+            >
+              <LogOut className="w-4 h-4 mr-2" /> Logout
+            </Button>
+          ) : (
+            <Button
+              asChild
+              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white shadow-lg shadow-purple-500/20"
+            >
+              <Link href="/login">
+                <LogIn className="w-4 h-4 mr-2" /> Login
+              </Link>
+            </Button>
+          )}
         </div>
 
         {/* Mobile Menu */}
@@ -131,10 +156,30 @@ export default function Navbar() {
                     </Link>
                   ))}
                 </nav>
-                <div className="mt-4">
+                <div className="mt-4 space-y-3">
+                   {session ? (
+                    <Button
+                      onClick={() => signOut()}
+                      variant="destructive"
+                      className="w-full"
+                    >
+                      <LogOut className="w-4 h-4 mr-2" /> Logout
+                    </Button>
+                  ) : (
+                    <Button
+                      asChild
+                      className="w-full bg-gradient-to-r from-purple-600 to-indigo-600"
+                    >
+                      <Link href="/login">
+                        <LogIn className="w-4 h-4 mr-2" /> Login
+                      </Link>
+                    </Button>
+                  )}
+                  
                   <Button
                     asChild
-                    className="w-full bg-gradient-to-r from-purple-600 to-indigo-600"
+                    variant="outline"
+                    className="w-full"
                   >
                     <a
                       href="https://github.com/ripasarkar49"
