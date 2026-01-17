@@ -142,34 +142,91 @@ export default function AppDetailsPage({ params }) {
           </p>
         </div>
 
-        <div className="p-6 bg-card/30 rounded-xl border border-white/5">
-          <h2 className="text-xl font-bold mb-6">Rating Distribution</h2>
-          <div className="h-[250px] w-full">
+        <div className="p-6 bg-card/30 backdrop-blur-md rounded-2xl border border-white/5 shadow-2xl">
+          <div className="flex justify-between items-center mb-8">
+            <h2 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
+              Rating Distribution
+            </h2>
+            <div className="text-sm text-muted-foreground flex items-center gap-1">
+              <Star className="w-3 h-3 fill-yellow-500 text-yellow-500" />
+              <span>{rating?.toFixed(1)} / 5.0</span>
+            </div>
+          </div>
+          
+          <div className="h-[280px] w-full">
             {ratings && (
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart
-                  data={ratings}
+                  data={[...ratings].reverse()}
                   layout="vertical"
-                  margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  margin={{ top: 5, right: 60, left: -20, bottom: 5 }}
+                  barGap={8}
                 >
-                   <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#333" />
+                  <defs>
+                    <linearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0%" stopColor="#8b5cf6" stopOpacity={0.8} />
+                      <stop offset="100%" stopColor="#6366f1" stopOpacity={1} />
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#ffffff10" vertical={true} />
                   <XAxis type="number" hide />
                   <YAxis 
                     dataKey="name" 
                     type="category" 
-                    stroke="#888" 
-                    width={20}
-                    tick={{fill: '#888', fontSize: 12}}
+                    axisLine={false}
+                    tickLine={false}
+                    width={80}
+                    tick={{fill: '#94a3b8', fontSize: 13, fontWeight: 500}}
                   />
                   <Tooltip 
-                    contentStyle={{ backgroundColor: '#111', border: '1px solid #333' }}
-                    itemStyle={{ color: '#fff' }}
-                    cursor={{fill: 'transparent'}}
+                    cursor={{fill: '#ffffff05'}}
+                    content={({ active, payload }) => {
+                      if (active && payload && payload.length) {
+                        return (
+                          <div className="bg-background/90 backdrop-blur-md border border-white/10 p-3 rounded-lg shadow-xl outline-none">
+                            <p className="text-sm font-semibold text-white">{payload[0].payload.name}</p>
+                            <div className="flex items-center gap-2 mt-1">
+                              <div className="w-2 h-2 rounded-full bg-purple-500" />
+                              <p className="text-xs text-muted-foreground">
+                                {payload[0].value.toLocaleString()} reviews
+                              </p>
+                            </div>
+                          </div>
+                        );
+                      }
+                      return null;
+                    }}
                   />
-                  <Bar dataKey="count" fill="#f59e0b" radius={[0, 4, 4, 0]} barSize={20} />
+                  <Bar 
+                    dataKey="count" 
+                    fill="url(#barGradient)" 
+                    radius={[0, 6, 6, 0]} 
+                    barSize={24}
+                    animationDuration={1500}
+                    label={({ x, y, width, height, value }) => {
+                      const total = ratings.reduce((acc, r) => acc + r.count, 0);
+                      const percentage = ((value / total) * 100).toFixed(0);
+                      return (
+                        <text 
+                          x={x + width + 8} 
+                          y={y + height / 2 + 5} 
+                          fill="#64748b" 
+                          fontSize="12" 
+                          fontWeight="600"
+                        >
+                          {percentage}%
+                        </text>
+                      );
+                    }}
+                  />
                 </BarChart>
               </ResponsiveContainer>
             )}
+          </div>
+          <div className="mt-4 pt-4 border-t border-white/5 text-center">
+            <p className="text-xs text-muted-foreground">
+              Based on {reviews?.toLocaleString()} total reviews
+            </p>
           </div>
         </div>
       </div>

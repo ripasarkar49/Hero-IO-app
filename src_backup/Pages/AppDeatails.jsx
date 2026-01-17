@@ -134,47 +134,60 @@ const AppDeatails = () => {
 
       <div className="w-full h-px bg-gray-400 my-10"></div>
 
-      <div>
-        <div className="h-64 mx-auto">
-          <h2 className="text-2xl font-bold">Ratings:</h2>
-          <ResponsiveContainer width="90%" height={256}>
-            <BarChart
-              data={ratings}
-              layout="vertical"
-              margin={{ top: 5, right: 0, left: 10, bottom: 5 }}
-            >
-              <CartesianGrid
-                strokeDasharray="3 3"
-                vertical={false}
-                stroke="#e5e7eb"
-              />
-              <YAxis
-                dataKey="name"
-                type="category"
-                fontSize={12}
-                axisLine={false}
-                tickLine={false}
-              />
-              <XAxis
-                dataKey="count"
-                type="number"
-                fontSize={10}
-                axisLine={false}
-                tickLine={false}
-              />
-              <Tooltip />
-              <Bar dataKey="count" fill="#FF8811" barSize={12} />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      </div>
+    
+<div className="flex flex-col gap-10"> 
 
-      <div className="w-full h-px bg-gray-400 my-10"></div>
+  <div className="w-full">
+    <h2 className="text-2xl font-bold pb-5">Description</h2>
+    <p className="text-gray-300 leading-relaxed">{description}</p>
+  </div>
 
-      <div>
-        <h2 className="text-2xl font-bold pb-5">Description</h2>
-        <p>{description}</p>
-      </div>
+  <div className="w-full h-px bg-gray-700 my-4"></div> 
+
+ 
+<div className="w-full bg-gray-900/50 p-6 rounded-2xl border border-white/5">
+  <h2 className="text-2xl font-bold mb-6 text-white">Rating Distribution</h2>
+  
+  <div className="h-64 w-full"> 
+    <ResponsiveContainer width="100%" height="100%">
+      <BarChart
+        data={ratings || []}
+        layout="vertical"
+        margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+      >
+        <CartesianGrid 
+          strokeDasharray="3 3" 
+          horizontal={true} 
+          vertical={false} 
+          stroke="#4b5563" 
+        />
+        <XAxis type="number" hide />
+        <YAxis 
+          dataKey="name" 
+          type="category" 
+          fontSize={13} 
+          stroke="#9ca3af"
+          tickLine={false}
+          axisLine={false}
+          width={70}
+        />
+        <Tooltip 
+          contentStyle={{ backgroundColor: '#1f2937', border: 'none', borderRadius: '8px' }}
+          itemStyle={{ color: '#fff' }}
+          cursor={{ fill: 'rgba(255, 255, 255, 0.05)' }} 
+        />
+        <Bar 
+          dataKey="count" 
+          fill="#F59E0B"  
+          barSize={18} 
+          radius={[0, 4, 4, 0]} 
+        />
+      </BarChart>
+    </ResponsiveContainer>
+  </div>
+</div>
+
+</div>
     </div>
   );
 };

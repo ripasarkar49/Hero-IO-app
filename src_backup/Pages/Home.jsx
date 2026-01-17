@@ -4,6 +4,10 @@ import UseApp from "../hooks/UseApp";
 import { Link } from "react-router";
 import Loading from "../components/Loading";
 import Banner from "../components/Banner";
+import WhyChooseUs from "../../components/WhyChooseUs";
+import HowItWorks from "../../components/HowItWorks";
+import Testimonials from "../../components/Testimonials";
+import FAQ from "../../components/FAQ";
 
 const Home = () => {
   const { apps, loading, error } = UseApp();
@@ -38,6 +42,11 @@ const Home = () => {
           Show All App
         </Link>
       </div>
+
+      <WhyChooseUs />
+      <HowItWorks />
+      <Testimonials />
+      <FAQ />
     </div>
   );
 };

@@ -88,9 +88,7 @@ export default function LoginPage() {
           </form>
         </CardContent>
         <CardFooter className="flex flex-col space-y-2 text-center text-sm text-muted-foreground">
-          <div>Demo Credentials:</div>
-          <div>Email: test@example.com</div>
-          <div>Password: password123</div>
+         
         </CardFooter>
       </Card>
     </div>
